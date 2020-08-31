@@ -1,4 +1,4 @@
-# quick-feed v2
+# quick-feed v2.01
 
 This project is a simple ReactJS app for rendering RSS feeds for podcasts.
 You can try out the app [here](https://amcquade.github.io/quick-feed/).
