@@ -5,6 +5,7 @@ import EpisodeList from "./components/EpisodeList";
 import UserForm from "./components/UserForm";
 import LoadingStatus from "./components/LoadingStatus";
 
+
 import {
   Button,
   Dialog,
@@ -14,6 +15,7 @@ import {
   DialogTitle
 } from "@material-ui/core";
 import SearchHistory from "./components/SearchHistory";
+import Footer from "./components/Footer";
 
 class App extends Component {
   state = {
@@ -131,6 +133,13 @@ class App extends Component {
       </div>
     );
   }
+  // render() {
+  //   return (
+  //     <div>
+  //      {/* <Footer></Footer> */}
+  //     </div>
+  //   );
+  // }
 }
 
 export default App;
